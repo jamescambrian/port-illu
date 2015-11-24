@@ -1,43 +1,72 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>JAMES</title>
+<meta name="description" content="James Cambrian Designer, Frontend Developer, Tea Lover">
+<meta name="keywords" content="Web designer,frontend developer, designer, HTML5, SASS, HTML, .com millionaire, CSS,CSS3, Berlin">
+<title>A Guy Called James | Designer Frontend Developer</title>
 <link rel="stylesheet" type="text/css" href="css/normalize.css">
 <link rel="stylesheet" type="text/css" href="css/main.css">
-<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville|Arvo:400,400italic,700,700italic|Abril+Fatface|Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic|Allerta' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville|Abril+Fatface' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="favicon64.png">
 </head>
+<body>       
 
-<body>	
-<div class="outer-wrap"/>
-<main class="container main">
-	<div class="one-third column">
-		<!-- https://www.googleapis.com/plus/v1/people/107799996245156734279?fields=image&key=AIzaSyBOHpQmqlQlMFADxrIzdcYAGYwhOGzNPcI -->
-	  <img class="u-max-full-width profile-image" src="https://lh3.googleusercontent.com/-EutRQLREhAk/AAAAAAAAAAI/AAAAAAAANUo/zBLniyWNvyM/photo.jpg"/>
-	  <ul>
-	  	<li><h2>About<h2></li>
-	  	<li>Born: 1981</li>
-	  	<li>Favourite Places: Borth, Falmouth</li>
-	  	<li>Eats: Thai Green Curry</li>	  	
-	  </ul>
-	</div>
-	<div class="two-thirds column">
-	<h1>Hello, I'm a Human</h1>
-	<p><span class="drop-cap">M</span>y is spring, moonless night in the small town, starless
-      and bible-black, the cobblestreets silent and the hunched,
-      courters'-and-rabbits' wood limping invisible down to the
-      sloeblack, slow, black, crowblack, fishingboatbobbing sea.
-      The houses are blind as moles (though moles see fine to-night
-      in the snouting, velvet dingles) or blind as Captain Cat
-      there in the muffled middle by the pump and the town clock,
-      the shops in mourning, the Welfare Hall in widows' weeds.</p>
-      <p>The houses are blind as moles (though moles see fine to-night
-      in the snouting, velvet dingles) or blind as Captain Cat
-      there in the muffled middle by the pump and the town clock,
-      the shops in mourning, the Welfare Hall in widows' weeds.</p>
-</main>
-</div>
+
+<!-- 
+  __    __    _______  ___  ___      ____  ____    _______      
+ /" |  | "\  /"     "||"  \/"  |    ("  _||_ " |  |   __ "\     
+(:  (__)  :)(: ______) \   \  /     |   (  ) : |  (. |__) :)    
+ \/      \/  \/    |    \\  \/      (:  |  | . )  |:  ____/     
+ //  __  \\  // ___)_   /   /        \\ \__/ //   (|  /         
+(:  (  )  :)(:      "| /   /         /\\ __ //\  /|__/ \        
+ \__|  |__/  \_______)|___/         (__________)(_______)       
+                                                                                                                                                             
+-->
+
+    <div class="outer-wrap">
+        <div class="container main">
+    	   <div class="one-third column profile fade1 row">
+    	       <a target="_blank" href="https://de.linkedin.com/in/jamescambrian"/><img title="google plus profile image" class="u-full-width profile-image desaturate" src="https://lh3.googleusercontent.com/-EutRQLREhAk/AAAAAAAAAAI/AAAAAAAANX0/-eQAKht4Ri8/photo.jpg?"/></a>
+           </div>
+    
+    <section class="two-thirds column row intro fade2">
+        <a target="_blank" href="https://de.linkedin.com/in/jamescambrian"/><img title="google plus profile image" class="profile-image desaturate" src="https://lh3.googleusercontent.com/-EutRQLREhAk/AAAAAAAAAAI/AAAAAAAANX0/-eQAKht4Ri8/photo.jpg?"/></a>
+	   <h1 class="greeting"></h1>
+		  <p><span class="redbold"><span class="drop-cap">I</span>’m James</span>, a Berlin-based British designer and frontend developer currently plying my trade at <a target="_blank" title="Link to Delivery Hero" href="https://www.deliveryhero.com"/>Delivery Hero</a>.</p><p>I'm passionate about creating beautiful visual communications and enjoy the challenge of injecting some warmth and authenticity to my digital work. I also like tea and records quite a bit. Feel free to <a target="_blank" title="Link to Delivery Hero" href="mailto:james.cambrian@gmail.com"/>email</a> me, <a target="_blank" title="Link to Blog" href="https://de.linkedin.com/in/jamescambrian"/>add</a> me or check out my <a target="_blank" title="Link to Blog" href="http://arrowsofindecision.tumblr.com/"/>blog</a>.</p> 
+  	</section>
+    </div>
+</div>     
+
+<!-- 
+  _______  ___  ___  _______   _______   _______  
+|   _  "\|"  \/"  |/"     "| /"     "| /"     "| 
+(. |_)  :)\   \  /(: ______)(: ______)(: ______) 
+|:     \/  \\  \/  \/    |   \/    |   \/    |   
+(|  _  \\  /   /   // ___)_  // ___)_  // ___)_  
+|: |_)  :)/   /   (:      "|(:      "|(:      "| 
+(_______/|___/     \_______) \_______) \_______) 
+                                                                                                                                                             
+-->
+
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script> 
+var data = [
+    [0, 12, "Mornin<span class='apostrophe'></span> Burds"],
+    [12, 18, "Afternoon Burds"],
+    [18, 24, "Evenin<span class='apostrophe'></span> Burds"]
+],
+    hr = new Date().getHours();
+
+for(var i=0; i<data.length;i++){
+    if(hr >= data[i][0] && hr <= data[i][1]){
+        $(".greeting").html(data[i][2]);
+        break;
+    }
+}
+</script> 
 </body>
 
 </html>
