@@ -218,6 +218,14 @@
 				"buffer_size": 3918,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "css/main.scss",
+			"settings":
+			{
+				"buffer_size": 10732,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -313,6 +321,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"greet",
 			"main",
 			"intr",
 			"p {",
@@ -439,8 +448,7 @@
 			"header",
 			"smaller",
 			"cursor",
-			"unders",
-			"gold"
+			"unders"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -459,7 +467,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -486,6 +494,34 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/main.scss",
+					"settings":
+					{
+						"buffer_size": 10732,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6319,
+								6319
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 1.0,
+						"translation.y": 3671.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
