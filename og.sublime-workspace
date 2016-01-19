@@ -215,7 +215,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3918,
+				"buffer_size": 3878,
 				"line_ending": "Unix"
 			}
 		},
@@ -223,7 +223,7 @@
 			"file": "css/main.scss",
 			"settings":
 			{
-				"buffer_size": 10732,
+				"buffer_size": 10134,
 				"line_ending": "Unix"
 			}
 		}
@@ -252,11 +252,11 @@
 	},
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/og/css/main.css",
 		"/Applications/MAMP/htdocs/og/index.html",
 		"/Applications/MAMP/htdocs/og/css/main.scss",
 		"/Users/jamesshaw/Downloads/delihero-kitchen-sink-249dc77d1b1f 3/css/app.scss",
 		"/Applications/MAMP/htdocs/og/css/tumblr.html",
-		"/Applications/MAMP/htdocs/og/css/main.css",
 		"/Applications/MAMP/htdocs/og/hex.html",
 		"/Users/jamesshaw/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Applications/MAMP/htdocs/og/boo.html",
@@ -475,15 +475,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 3918,
+						"buffer_size": 3878,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								700,
-								700
+								3870,
+								3870
 							]
 						],
 						"settings":
@@ -503,15 +503,15 @@
 					"file": "css/main.scss",
 					"settings":
 					{
-						"buffer_size": 10732,
+						"buffer_size": 10134,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6319,
-								6319
+								7,
+								7
 							]
 						],
 						"settings":
@@ -520,8 +520,8 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 1.0,
-						"translation.y": 3671.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

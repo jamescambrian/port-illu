@@ -1,9 +1,10 @@
-OG Profile
+Personal Intro Page AGCJ
 ================
-Profile for Dev CV online, puls google profile data
+Profile for Dev CV online, pulls google profile data
 
 ____
 
-## Technologies
+## Dependencies
+
 - Javascript
 - HTML / CSS
