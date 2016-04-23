@@ -1,0 +1,5 @@
+// MIXINS
+@mixin fade($fade) {
+-webkit-transition: all $fade;
+transition: all $fade;
+}

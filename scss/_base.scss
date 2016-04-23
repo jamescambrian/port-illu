@@ -1,0 +1,27 @@
+// BASE
+// Breakpoints
+$bp-larger-than-mobile    : "min-width: 300px";
+$bp-larger-than-phablet   : "min-width: 550px";
+$bp-larger-than-tablet    : "min-width: 750px";
+$bp-larger-than-desktop   : "min-width: 1000px";
+$bp-larger-than-desktophd : "min-width: 1200px";
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+html {
+  font-size: 62.5%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-family: $font-para;
+  color: $black; 
+  background:$background-color;
+  margin: 0;
+  padding:0;
+}
