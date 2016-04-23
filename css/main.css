@@ -243,8 +243,11 @@ p {
   display: inline-block;
   content: ",";
   position: relative;
-  font-size: 4rem;
-  top: -35px; }
+  font-size: 3rem;
+  top: -23px; }
+  @media (min-width: 550px) {
+    .apostrophe:after {
+      top: -35px; } }
 
 @media (min-width: 300px) {
   h1.intro__greeting {

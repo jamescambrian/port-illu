@@ -38,8 +38,9 @@ p {
     display: inline-block;
     content:",";
     position: relative;
-    font-size: 4rem;
-    top: -35px;
+    font-size: 3rem;
+    top:-23px;
+    @media (#{$bp-larger-than-phablet}) {top: -35px;}
 }
 h1.intro__greeting{
   @media (#{$bp-larger-than-mobile}) { 
