@@ -1,10 +1,10 @@
-Personal Intro Page AGCJ
+#Personal Portfolio Page
 ================
-Profile for Dev CV online, pulls google profile data
+Portfolio Case Studies:
+Case studies for portfolio pieces, square layout, full screen up to 1440
 
 ____
 
-## Dependencies
-
+## Tech
 - Javascript
-- HTML / CSS
+- HTML / SASS

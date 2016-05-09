@@ -3,6 +3,21 @@
 	[
 		{
 			"path": "/Applications/MAMP/htdocs/og"
+		},
+		{
+			"path": "images"
+		},
+		{
+			"path": "js"
+		},
+		{
+			"path": "node_modules"
+		},
+		{
+			"path": "scss"
+		},
+		{
+			"path": "css"
 		}
 	]
 }
