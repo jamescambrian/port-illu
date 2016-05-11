@@ -12,58 +12,14 @@ h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
 }
 p {
     margin-top: 0;
-    color: $black-80percent;
     font-family: $font-para;
     font-weight: 400;
     letter-spacing: 0.01rem;
-    @media (#{$bp-larger-than-mobile}) {font-size: 1.5rem; word-spacing: 0.15rem;@include fade(0.5s);}
-    @media (#{$bp-larger-than-desktop}) {font-size: 1.8rem; word-spacing: 0.1rem; line-height: 2.8rem; @include fade(0.5s);}
+    @media (#{$bp-larger-than-mobile}) {font-size: 1.7rem; word-spacing: 0.15rem;@include fade(0.5s);}
+    @media (#{$bp-larger-than-desktop}) {font-size: 1.5rem; word-spacing: 0.1rem; line-height: 2.5rem; @include fade(0.5s);}
     @media (#{$bp-larger-than-desktophd}) {font-size: 1.7rem; word-spacing: 0.15rem; line-height: 3.2rem;}
 }
-.drop-cap{
-@media (#{$bp-larger-than-desktop})
-  {
-    float: left;
-    color: #cf4a37;
-    font-size: 6.5rem;
-    line-height: 5.8rem;
-    margin-right: 1rem;
-    padding-top: 0px;
-    padding-left: 3px;
-    font-family: "Abril Fatface", cursive;
-    padding-bottom: 0.7rem;
-  }
-}
-.apostrophe:after{
-    display: inline-block;
-    content:",";
-    position: relative;
-    font-size: 3rem;
-    top:-23px;
-    @media (#{$bp-larger-than-phablet}) {top: -35px;}
-}
-h1.intro__greeting{
-  @media (#{$bp-larger-than-mobile}) { 
-  font-size: 5.8rem;
-  text-align:center;
-  border-bottom: 2px solid $black;
-  line-height: 5.7rem;
-  padding-bottom: 3rem;
-  }
-  @media (#{$bp-larger-than-phablet}) { 
-  font-size: 7rem;
-  text-align:center;
-  border-bottom: 2px solid $black;
-  line-height: 5.7rem;
-  padding-bottom: 3rem;
-  }
-  @media (#{$bp-larger-than-desktop}) { 
-  font-size: 5.8rem;
-  text-align:left;
-  border:0;
-  padding-bottom:0;
-  }
-}
+
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {

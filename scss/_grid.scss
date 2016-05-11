@@ -2,10 +2,10 @@
 .container {
   position: relative;
   width: 100%;
-  max-width: 960px;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 0 20px;
   box-sizing: border-box; 
+  
 }
 .column,
 .columns {
@@ -24,7 +24,7 @@
     width: 80%; }
   .column,
   .columns {
-    margin-left: 4%; }
+    margin-left: 0%; }
   .column:first-child,
   .columns:first-child {
     margin-left: 0; }
@@ -41,7 +41,7 @@
   .ten.columns                    { width: 82.6666666667%; }
   .eleven.columns                 { width: 91.3333333333%; }
   .twelve.columns                 { width: 100%; margin-left: 0; }
-  .one-third.column               { width: 30.6666666667%; }
+  .one-third.column               { width: 33.33%; }
   .two-thirds.column              { width: 65.3333333333%; }
   .one-half.column                { width: 48%; }
   /* Offsets */
@@ -76,7 +76,21 @@
 }
 //overrides
 .container{
-  @media (#{$bp-larger-than-mobile}){width: 85%;}
-  @media (#{$bp-larger-than-phablet}){width: 65.5%;}
-  @media (#{$bp-larger-than-desktop}){width: 90.5%;}
+  @media (#{$bp-larger-than-mobile}){width: 100%;}
+}
+
+//overrides the hd settings to allow display of seperate paragraph
+.no-hd{
+  @media (#{$bp-larger-than-desktophd}){
+    display: none;
+  }
+}
+
+.hd-only{
+  @media (#{$bp-larger-than-mobile}){
+  display: none;
+  }
+  @media (#{$bp-larger-than-desktophd}){
+  display:block;
+  }
 }

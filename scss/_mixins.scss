@@ -3,3 +3,11 @@
 -webkit-transition: all $fade;
 transition: all $fade;
 }
+
+@mixin order($order) {
+-webkit-box-ordinal-group:$order;
+-moz-box-ordinal-group:$order;
+-ms-flex-order:$order;
+-webkit-order:$order;
+order:$order;
+}
