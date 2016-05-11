@@ -9,7 +9,6 @@
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
 }
-
 header{
   background:url('../images/gradient.png'),url('../images/table__head.png');
   background-repeat:repeat-x, no-repeat;
@@ -19,7 +18,7 @@ header{
   background-size: 10px 100% , cover;
   position:relative;
   @media (#{$bp-larger-than-mobile}) {
-    height:320px;
+    height:100vw;
   }
   @media (#{$bp-larger-than-phablet}) {
     height:480px;
@@ -112,7 +111,6 @@ header{
 .content__block{
 @media (#{$bp-larger-than-mobile}) {
   height:auto;
-  min-height: 320px;
   width:100vw!important;
   padding:3rem;
 }
@@ -150,10 +148,24 @@ header{
   //block with squared image
   &--img{
     padding:0;
+    position:relative;
     background:url('../images/placeholder.png');
     background-repeat:no-repeat;
     background-size:cover!important;
     background-position:top center!important;
+    @media (#{$bp-larger-than-mobile}) {
+      height: 100vw;
+    }
+    @media (#{$bp-larger-than-tablet}) {
+      height: 50vw;
+    }
+  }
+  .caption{
+    font-size: 1.1rem;
+    color:rgba(255,255,255,0.6);
+    position:absolute;
+    bottom: 1rem;
+    left:1rem;
   }
   //colors
   &--yellow{
@@ -214,17 +226,17 @@ header{
   }
   &:nth-of-type(9){
     @media (#{$bp-larger-than-mobile}) {@include order(9);}
-    @media (#{$bp-larger-than-tablet}) {@include order(9);}
+    @media (#{$bp-larger-than-tablet}) {@include order(10);}
     @media (#{$bp-larger-than-desktop}) {@include order(9);}
   }
   &:nth-of-type(10){
-    @media (#{$bp-larger-than-mobile}) {@include order(10);}
-    @media (#{$bp-larger-than-tablet}) {@include order(10);}
+    @media (#{$bp-larger-than-mobile}) {@include order(10);margin-bottom:2px;}
+    @media (#{$bp-larger-than-tablet}) {@include order(9);margin-bottom:0px;}
     @media (#{$bp-larger-than-desktop}) {@include order(10);}
   }
   &:nth-of-type(11){
     @media (#{$bp-larger-than-mobile}) {@include order(12);}
-    @media (#{$bp-larger-than-tablet}) {@include order(12);}
+    @media (#{$bp-larger-than-tablet}) {@include order(11);}
     @media (#{$bp-larger-than-desktop}) {@include order(11);}
   }
   &:nth-of-type(12){
@@ -233,10 +245,6 @@ header{
     @media (#{$bp-larger-than-desktop}) {@include order(12);}
   }
 }
-
-
-
-
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
