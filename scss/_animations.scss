@@ -1,19 +1,18 @@
-// ANIMATION
-.fade1 {
-  -webkit-animation: fadein 0.5s 1 0.55s forwards;
-  animation: fadein 0.5s 1 0.55s forwards;
+.enter1{
+  -webkit-animation: come 0.75s 1 0.5s forwards;
+  animation: come 0.75s 1 0.5s forwards;
   opacity: 0;
 }
-.fade2 {
-  -webkit-animation: fadein 0.5s 1 0.75s forwards;
-  animation: fadein 0.5s 1 0.75s forwards;
+.enter2{
+  -webkit-animation: come 0.75s 1 1s forwards;
+  animation: come 0.75s 1 1s forwards;
   opacity: 0;
 }
-@-webkit-keyframes fadein {
-  0%  {opacity: 0; filter: blur(30px); -webkit-filter: blur(30px);}
-  100% { opacity: 1; filter: blur(0px); -webkit-filter: blur(0px);}
+@-webkit-keyframes come {
+  0%  {opacity:0;}
+  100% {opacity:1;}
 }
-@keyframes fadein {
-  0%  {opacity: 0; filter: blur(30px); -webkit-filter: blur(30px);}
-  100% { opacity: 1; filter: blur(0px); -webkit-filter: blur(0px);}
+@keyframes come {
+  0%  {opacity:0;}
+  100% {opacity:1;}
 }
